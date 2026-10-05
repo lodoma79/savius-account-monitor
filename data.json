@@ -2138,13 +2138,13 @@
       }
     },
     "schedule": {
-      "enabled": false,
-      "verified": false,
+      "enabled": true,
+      "verified": true,
       "firstScheduledRunVerified": false,
       "time": "09:00",
       "timezone": "Europe/Berlin",
       "graceMinutes": 60,
-      "label": "Daily collection planned · 09:00 Europe/Berlin"
+      "label": "Daily collection · 09:00 Europe/Berlin"
     }
   }
 }
