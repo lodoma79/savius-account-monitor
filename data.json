@@ -2101,19 +2101,50 @@
     }
   ],
   "refresh": {
-    "state": "idle",
-    "attemptedAt": null,
-    "succeededAt": null,
+    "state": "succeeded",
+    "attemptedAt": "2026-10-05T01:20:32.492Z",
+    "succeededAt": "2026-10-05T06:00:48.585Z",
     "sourceAsOf": "2026-10-05T01:21:33.085Z",
+    "scheduledFor": null,
+    "durationMs": 16816093,
     "errorSummary": null,
+    "schemaVersion": 1,
     "counts": {
-      "customers": 30,
-      "accounts": 101
+      "sourceAccounts": 566,
+      "sourceCustomers": 281,
+      "scopedCustomers": 30,
+      "scopedAccounts": 101,
+      "bySize": {
+        "150000": {
+          "customers": 6,
+          "accounts": 18,
+          "with3": 6,
+          "with4": 0,
+          "with5": 0
+        },
+        "300000": {
+          "customers": 24,
+          "accounts": 83,
+          "with3": 18,
+          "with4": 1,
+          "with5": 5
+        }
+      },
+      "progressBands": {
+        "green": 100,
+        "orange": 0,
+        "red": 1,
+        "unknown": 0
+      }
     },
     "schedule": {
+      "enabled": false,
       "verified": false,
-      "label": "Daily collection planned · 09:00 Europe/Berlin",
-      "graceMinutes": 60
+      "firstScheduledRunVerified": false,
+      "time": "09:00",
+      "timezone": "Europe/Berlin",
+      "graceMinutes": 60,
+      "label": "Daily collection planned · 09:00 Europe/Berlin"
     }
   }
 }
