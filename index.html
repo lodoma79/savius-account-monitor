@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f"><meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="Savius account capacity and payout proximity overview.">
+  <meta name="snapshot-url" content="./data.json"><meta name="refresh-status-url" content="">
+  <title>Savius | Account Monitor</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%2307111f'/%3E%3Cpath d='M25 9H14l-4 11h15l-4 11H10' fill='none' stroke='%233ccff5' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#customerOverview">Skip to customer overview</a>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Savius account monitor"><img src="assets/savius-logo.png" alt="Savius"><span class="brand-divider"></span><span>ACCOUNT MONITOR</span></a>
+  <div class="top-actions"><span class="source-pill"><span class="pulse-dot"></span>Read-only source</span><button id="methodologyBtn" class="quiet-button" type="button">How to read this <span aria-hidden="true">↗</span></button></div>
+</header>
+<main>
+  <section class="intro">
+    <div><div class="eyebrow">TOMCAT 150K & THUNDERBOLT 300K</div><h1>A clear view of every account.</h1><p>Account concentration, current target progress and customer history. In one place.</p></div>
+    <div class="snapshot"><div class="snapshot-label"><span id="freshnessDot" class="status-dot unknown"></span><span id="freshnessText">Loading snapshot</span></div><strong id="asOf">—</strong><small id="scheduleText">Daily collection planned · 09:00 Europe/Berlin</small><button id="refreshBtn" class="text-button" type="button"><span aria-hidden="true">↻</span> Refresh snapshot</button></div>
+  </section>
+  <div id="dataNotice" class="notice" role="status" hidden></div>
+  <section id="headlineMetrics" class="headline-metrics" aria-label="Scope overview"></section>
+  <section class="overview-heading"><div><h2>Two sizes. One complete view.</h2><p>Customers holding exactly 3, 4 or 5 active Tomcat 150K or Thunderbolt 300K accounts.</p></div><span class="overview-scope">Current filters · all accounts in matching groups</span></section>
+  <div id="sizeOverview" class="size-overview" aria-label="Overview by account size"></div>
+  <section id="customerOverview" class="customer-section">
+    <div class="section-title"><div><div class="eyebrow">THE CUSTOMER VIEW</div><h2>See the detail behind the numbers.</h2></div><div class="table-actions"><button id="columnsBtn" class="outline-button" type="button">Columns <span aria-hidden="true">☷</span></button><button id="exportBtn" class="outline-button" type="button">Export CSV <span aria-hidden="true">↓</span></button></div></div>
+    <div class="table-shell">
+      <div class="filter-bar">
+        <label class="search-wrap"><span aria-hidden="true">⌕</span><span class="sr-only">Search customer, email or account number</span><input id="search" type="search" placeholder="Search name, email or account…" autocomplete="off"></label>
+        <label class="filter-field"><span>Account size</span><select id="sizeFilter"><option value="all">All sizes</option><option value="150000">150K</option><option value="300000">300K</option></select></label>
+        <label class="filter-field"><span>Same-size accounts</span><select id="countFilter"><option value="all">3, 4 & 5 accounts</option><option value="3">3 accounts</option><option value="4">4 accounts</option><option value="5">5 accounts</option></select></label>
+        <label class="filter-field"><span>Account progress</span><select id="progressFilter"><option value="all">All progress</option><option value="green">Below 80%</option><option value="orange">80% to below 86%</option><option value="red">86% or higher</option><option value="unknown">Not available</option></select></label>
+        <label class="filter-field"><span>Payout proximity</span><select id="riskFilter"><option value="all">All levels</option><option value="red">High · ≥86%</option><option value="orange">Watch · 80–&lt;86%</option><option value="green">Lower · &lt;80%</option><option value="unknown">Incomplete</option></select></label>
+      </div>
+      <div class="table-toolbar"><div><span id="resultCount">Loading customers…</span><button id="clearBtn" class="text-button reset-button" type="button">Reset view</button></div><label class="density-toggle"><input id="denseMode" type="checkbox"><span>Compact rows</span></label></div>
+      <div class="table-scroll"><table id="customerTable"><caption class="sr-only">Customers holding 3, 4 or 5 active Tomcat 150K or Thunderbolt 300K accounts. Expand a customer for individual account details.</caption><thead id="tableHead"></thead><tbody id="tableBody"></tbody></table></div>
+      <div class="table-foot"><span id="tableFootnote">Click a name, email or account number to copy it.</span><div class="pagination"><button id="prevPage" type="button" class="quiet-button" aria-label="Previous page">←</button><span id="pageInfo">—</span><button id="nextPage" type="button" class="quiet-button" aria-label="Next page">→</button></div></div>
+    </div>
+  </section>
+  <section class="reading-note"><div class="note-icon" aria-hidden="true">i</div><div><strong>Progress is an indicator, not a payout forecast.</strong><p>Proximity reflects the highest progress toward the fixed product payout target within each size group. Eligibility rules, trading days and other payout conditions still apply. Unknown values remain visible.</p></div><button class="text-button" id="methodologyBottom" type="button">View methodology <span aria-hidden="true">↗</span></button></section>
+  <footer><span>SAVIUS <span class="footer-slash">/</span> Account Monitor</span><span id="sourceFoot">Read-only observations from Savius Admin</span></footer>
+</main>
+<dialog id="methodologyDialog" class="modal" aria-label="How to read the monitor"><form method="dialog"><div class="modal-head"><div><div class="eyebrow">DEFINITIONS & DATA</div><h2>How to read the monitor</h2></div><button class="icon-button" aria-label="Close methodology">×</button></div></form><div class="modal-content"><h3>Who is included?</h3><p>Customers with exactly 3, 4 or 5 currently active Tomcat 150K or Thunderbolt 300K accounts in the same size group. Only these two products are included. Second Cycle accounts remain in scope and use the same product benchmark. A customer may appear once in each size section. The customer total is deduplicated across both sections.</p><h3>Profit-target progress</h3><p id="progressMethod">Progress = current source account profit ÷ the fixed product payout target × 100. The confirmed targets are $7,500 for Tomcat 150K and $15,000 for Thunderbolt 300K. Missing or unsupported source values remain unavailable. This measures proximity to the product payout target, not payout eligibility.</p><div class="method-bands"><span class="badge green">Below 80%</span><span class="badge orange">80% to below 86%</span><span class="badge red">86% or higher</span><span class="badge unknown">Unavailable</span></div><p>Decimal progress from 85% up to, but not including, 86% stays orange. This avoids a gap between the requested whole-number bands. Percentages use every account in the size groups matching the current filters as the denominator, including accounts with unknown progress. A progress filter selects groups containing a matching account; the whole group stays visible and counted. Rounding may make the displayed percentages total slightly above or below 100%.</p><h3>Payout proximity</h3><p>A customer's size group is marked High if any account is at 86% or higher; Watch if any account is at 80% to below 86%. If neither applies and any progress is missing, the group is Incomplete. Otherwise it is Lower. This is not a credit score or a prediction of customer behaviour.</p><h3>Historical outcomes</h3><p id="historyMethod">Confirmed failures count distinct customer accounts explicitly classified Drawdown, Failed or Breached. Other inactive reasons are not estimated as failures. Completed payout accounts count distinct customer accounts with at least one Completed payout in the captured register; reaching a profit target alone does not count. Requested, pending, approved but unpaid, and rejected payouts are excluded. These counts cover the customer’s history across all products, not just the displayed size group. Unknown is not zero.</p><h3>Refresh & integrity</h3><p id="refreshMethod">The collection agent only reads Savius. It updates this external snapshot without changing, editing or deleting source records. The timestamp identifies the data snapshot. A missed collection never makes old data look current.</p><div id="extraNotes"></div></div></dialog>
+<dialog id="columnsDialog" class="modal column-modal" aria-label="Arrange your columns"><form method="dialog"><div class="modal-head"><div><div class="eyebrow">MAKE IT YOURS</div><h2>Arrange your columns</h2></div><button class="icon-button" aria-label="Close column settings">×</button></div></form><div class="modal-content"><p>Drag a row or use the arrows to reorder. Changes stay in this browser.</p><div id="columnList"></div><button id="restoreColumns" class="outline-button" type="button">Restore default columns</button></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>
+
+
