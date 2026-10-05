@@ -2155,7 +2155,7 @@
     "schedule": {
       "enabled": true,
       "verified": true,
-      "firstScheduledRunVerified": false,
+      "firstScheduledRunVerified": true,
       "time": "09:00",
       "timezone": "Europe/Berlin",
       "graceMinutes": 60,
