@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-06T07:04:07.015Z",
-  "collectedAt": "2026-10-06T07:10:52.147Z",
+  "asOf": "2026-10-07T07:03:33.159Z",
+  "collectedAt": "2026-10-07T07:09:07.871Z",
   "status": "ready",
   "cohortPolicy": "tomcat-thunderbolt",
   "sourceLabel": "Savius Admin · complete read-only active-account capture",
   "notes": [
-    "Complete read-only active-account capture: 583 unique accounts across 12 pages; observed sequentially from 2026-10-06T07:03:19.407Z to 2026-10-06T07:04:07.015Z.",
+    "Complete read-only active-account capture: 575 unique accounts across 12 pages; observed sequentially from 2026-10-07T07:03:03.762Z to 2026-10-07T07:03:33.159Z.",
     "Profit-target progress uses the displayed account profit and the owner-defined benchmark: Tomcat 150K = USD 7,500; Thunderbolt 300K = USD 15,000. This is a monitoring benchmark, including Second Cycle products, and does not assert payout eligibility.",
     "Progress bands use unrounded values: green below 80%; orange 80% to below 86%; red 86% or above. Unknowns remain in the account denominator.",
     "Customer identities were read during this collection. Source updated times are preserved as displayed without assigning an unverified timezone.",
@@ -23,8 +23,8 @@
       "failedAccounts": 42,
       "payoutAccounts": 3,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:40.859Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:42.445Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -42,7 +42,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_cc2dd893de96607f324c20ebd1858f56",
@@ -57,14 +57,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_10f1f72f608fc40527d9c3c5d996c8ad",
               "accountNumber": "SV23884",
-              "progressPct": 25.066666666666666,
-              "balance": 303760,
-              "profit": 3760,
+              "progressPct": 26.19,
+              "balance": 303928.5,
+              "profit": 3928.5,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -72,7 +72,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -87,8 +87,8 @@
       "failedAccounts": 1,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:26.563Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:28.959Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -106,7 +106,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_fd6260d0d04230cf3214d070d3f0acbb",
@@ -121,7 +121,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_9d61a88e25489fe22ba87d00b2f32a4e",
@@ -136,7 +136,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -151,8 +151,8 @@
       "failedAccounts": 47,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:09.084Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:14.813Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -160,9 +160,9 @@
             {
               "accountId": "account_41d144e6cb1ecc1c9053e79accba458d",
               "accountNumber": "SV23174",
-              "progressPct": 19.333333333333332,
-              "balance": 151450,
-              "profit": 1450,
+              "progressPct": -5.533333333333333,
+              "balance": 149585,
+              "profit": -415,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -170,14 +170,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_902eaf89d70fb18e43c707d99de134f9",
               "accountNumber": "SV23175",
-              "progressPct": 0,
-              "balance": 150000,
-              "profit": 0,
+              "progressPct": 20.133333333333333,
+              "balance": 151510,
+              "profit": 1510,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -185,14 +185,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_c6ae7af6e2e322ca64cdb943e1471f33",
               "accountNumber": "SV23176",
-              "progressPct": 0,
-              "balance": 150000,
-              "profit": 0,
+              "progressPct": -25.2,
+              "balance": 148110,
+              "profit": -1890,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -200,7 +200,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -215,8 +215,8 @@
       "failedAccounts": 49,
       "payoutAccounts": 6,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:14.266Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:20.985Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -224,9 +224,9 @@
             {
               "accountId": "account_0eebe52ad1b3ef0ba49939b87ce0f282",
               "accountNumber": "SV24138",
-              "progressPct": 60.85326666666666,
-              "balance": 309127.99,
-              "profit": 9127.99,
+              "progressPct": 81.01326666666667,
+              "balance": 312151.99,
+              "profit": 12151.99,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -234,14 +234,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_87ac3f90c0a26d3ffe5491dcab693ed9",
               "accountNumber": "SV24227",
-              "progressPct": 60.49,
-              "balance": 309073.5,
-              "profit": 9073.5,
+              "progressPct": 80.54666666666667,
+              "balance": 312082,
+              "profit": 12082,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -249,14 +249,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_06c948a78b5c3ff5fbd0601e8d207407",
               "accountNumber": "SV24228",
-              "progressPct": 60.696666666666665,
-              "balance": 309104.5,
-              "profit": 9104.5,
+              "progressPct": 80.73993333333334,
+              "balance": 312110.99,
+              "profit": 12110.99,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -264,14 +264,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_2854600afc712bb6e773f7b82b7ef721",
               "accountNumber": "SV24301",
-              "progressPct": 60.940000000000005,
-              "balance": 309141,
-              "profit": 9141,
+              "progressPct": 80.99666666666666,
+              "balance": 312149.5,
+              "profit": 12149.5,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -279,14 +279,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_3b388b7aa95afc2b6a8eac04aa9e9a22",
               "accountNumber": "SV24302",
-              "progressPct": 61.46,
-              "balance": 309219,
-              "profit": 9219,
+              "progressPct": 81.48333333333333,
+              "balance": 312222.5,
+              "profit": 12222.5,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -294,7 +294,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -309,8 +309,8 @@
       "failedAccounts": 20,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:32.261Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:26.017Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -318,9 +318,9 @@
             {
               "accountId": "account_e1cbf1d980e3b788fe76b06e60cc208a",
               "accountNumber": "SV24191",
-              "progressPct": 9.45,
-              "balance": 301417.5,
-              "profit": 1417.5,
+              "progressPct": 9.1,
+              "balance": 301365,
+              "profit": 1365,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -328,14 +328,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_cc2828dfc8abb33f681d8d5145b9390e",
               "accountNumber": "SV24192",
-              "progressPct": 9.45,
-              "balance": 301417.5,
-              "profit": 1417.5,
+              "progressPct": 9.1,
+              "balance": 301365,
+              "profit": 1365,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -343,14 +343,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_b8f0f34e404bec3524371754ab49aa5d",
               "accountNumber": "SV24193",
-              "progressPct": 9.45,
-              "balance": 301417.5,
-              "profit": 1417.5,
+              "progressPct": 9.1,
+              "balance": 301365,
+              "profit": 1365,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -358,7 +358,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -373,8 +373,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:29.608Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:31.245Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -392,7 +392,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_ac822dfc08eb17226e72f0f447b11f24",
@@ -407,7 +407,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_b63efc175e3ff111396b1cb59427bea5",
@@ -422,7 +422,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -437,8 +437,8 @@
       "failedAccounts": 16,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:12.031Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:17.272Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -446,9 +446,9 @@
             {
               "accountId": "account_39a340e063c1b2713c1eae4fceb67698",
               "accountNumber": "SV21459",
-              "progressPct": -10.222,
-              "balance": 149233.35,
-              "profit": -766.65,
+              "progressPct": -9.201999999999998,
+              "balance": 149309.85,
+              "profit": -690.15,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -456,7 +456,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_056f1a3393af8e82f6f4c37aec2664f6",
@@ -471,7 +471,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_35dc3ca8cb94c5ba5dced7b6a55f75ff",
@@ -486,7 +486,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -501,8 +501,8 @@
       "failedAccounts": 14,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:37.969Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:37.541Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -510,9 +510,9 @@
             {
               "accountId": "account_2b8e70798a3290ecc99522cd9905e37e",
               "accountNumber": "SV24125",
-              "progressPct": -36.986066666666666,
-              "balance": 294452.09,
-              "profit": -5547.91,
+              "progressPct": -55.3834,
+              "balance": 291692.49,
+              "profit": -8307.51,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -520,14 +520,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_98e206799806fac523742e7e6e710a44",
               "accountNumber": "SV24126",
-              "progressPct": -37.2594,
-              "balance": 294411.09,
-              "profit": -5588.91,
+              "progressPct": -53.81673333333333,
+              "balance": 291927.49,
+              "profit": -8072.51,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -535,14 +535,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_080cca184d17cd67da30fbaae2ee629c",
               "accountNumber": "SV24127",
-              "progressPct": -37.39606666666667,
-              "balance": 294390.59,
-              "profit": -5609.41,
+              "progressPct": -53.95340000000001,
+              "balance": 291906.99,
+              "profit": -8093.01,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -550,7 +550,86 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "customer_5ea2381b41d5620ecd0e50056dd23579",
+      "name": "Müller Jaroslaw",
+      "email": "ecco2k5star@gmail.com",
+      "totalActiveAccounts": 4,
+      "totalActiveInstantAccounts": 4,
+      "failedAccounts": 61,
+      "payoutAccounts": 0,
+      "historyComplete": true,
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:04.574Z",
+      "groups": [
+        {
+          "accountSize": 300000,
+          "accounts": [
+            {
+              "accountId": "account_bab39249308d4f89cb88a98ad28fd8e4",
+              "accountNumber": "SV23896",
+              "progressPct": -49.54666666666667,
+              "balance": 292568,
+              "profit": -7432,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            },
+            {
+              "accountId": "account_a3a0f1c773cc8d758f20daa3bcb1464b",
+              "accountNumber": "SV24442",
+              "progressPct": 2.76,
+              "balance": 300414,
+              "profit": 414,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
+            },
+            {
+              "accountId": "account_61f018d91e790b3a332866570213b790",
+              "accountNumber": "SV24443",
+              "progressPct": 2.7666666666666666,
+              "balance": 300415,
+              "profit": 415,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
+            },
+            {
+              "accountId": "account_89ef9942dc023c64283018d5467fa0f7",
+              "accountNumber": "SV24444",
+              "progressPct": 0,
+              "balance": 300000,
+              "profit": 0,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
             }
           ]
         }
@@ -565,8 +644,8 @@
       "failedAccounts": 28,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:04:54.526Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:09.321Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -574,9 +653,9 @@
             {
               "accountId": "account_674348e33756405efda600395e72fe87",
               "accountNumber": "SV24096",
-              "progressPct": 4.706666666666667,
-              "balance": 150353,
-              "profit": 353,
+              "progressPct": 14.3732,
+              "balance": 151077.99,
+              "profit": 1077.99,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -584,14 +663,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_9e1d6b47bc2fc84db9ae1c2713cf3ed2",
               "accountNumber": "SV24097",
-              "progressPct": 4.7332,
-              "balance": 150354.99,
-              "profit": 354.99,
+              "progressPct": 11.553333333333333,
+              "balance": 150866.5,
+              "profit": 866.5,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -599,14 +678,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_8f9482d33495226d7f3792bbfed7d131",
               "accountNumber": "SV24098",
-              "progressPct": 4.766666666666667,
-              "balance": 150357.5,
-              "profit": 357.5,
+              "progressPct": 11.586666666666668,
+              "balance": 150869,
+              "profit": 869,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -614,14 +693,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_dfe79da5be182c5192f09fde762bf3e5",
               "accountNumber": "SV24409",
-              "progressPct": 0,
-              "balance": 150000,
-              "profit": 0,
+              "progressPct": 6.819999999999999,
+              "balance": 150511.5,
+              "profit": 511.5,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -629,14 +708,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
             },
             {
               "accountId": "account_e76b4ee3a39aee98b4b54584bc2de5eb",
               "accountNumber": "SV24410",
-              "progressPct": 0,
-              "balance": 150000,
-              "profit": 0,
+              "progressPct": 6.819999999999999,
+              "balance": 150511.5,
+              "profit": 511.5,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -644,86 +723,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "customerId": "customer_59b824635bc42c02650ac8c274bf6bf7",
-      "name": "neveda rajkumar",
-      "email": "neveda2077@gmail.com",
-      "totalActiveAccounts": 4,
-      "totalActiveInstantAccounts": 4,
-      "failedAccounts": 4,
-      "payoutAccounts": 0,
-      "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:17.027Z",
-      "groups": [
-        {
-          "accountSize": 300000,
-          "accounts": [
-            {
-              "accountId": "account_e27c58eb38c00211a8bc37c140f3570b",
-              "accountNumber": "SV24142",
-              "progressPct": 74.46333333333334,
-              "balance": 311169.5,
-              "profit": 11169.5,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            },
-            {
-              "accountId": "account_9cbcc80ea40787551bbd7bca3c13b0eb",
-              "accountNumber": "SV24143",
-              "progressPct": 69.09666666666666,
-              "balance": 310364.5,
-              "profit": 10364.5,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            },
-            {
-              "accountId": "account_1b608db5b8c2055b5d35382e7d8e22b6",
-              "accountNumber": "SV24144",
-              "progressPct": 69.06333333333333,
-              "balance": 310359.5,
-              "profit": 10359.5,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            },
-            {
-              "accountId": "account_b3f92155fd19b231e7f7d6d1097616e6",
-              "accountNumber": "SV24283",
-              "progressPct": 67.41,
-              "balance": 310111.5,
-              "profit": 10111.5,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
             }
           ]
         }
@@ -738,8 +738,8 @@
       "failedAccounts": 2,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:32.716Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:33.685Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -747,9 +747,9 @@
             {
               "accountId": "account_c4c5c8d9a28235cb4bf8c06f2fe1efe4",
               "accountNumber": "SV16610",
-              "progressPct": -16.7802,
-              "balance": 297482.97,
-              "profit": -2517.03,
+              "progressPct": -10.0252,
+              "balance": 298496.22,
+              "profit": -1503.78,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -757,14 +757,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_51fac50fc58ace5c4915ea7bbf2801a3",
               "accountNumber": "SV16611",
-              "progressPct": -9.635733333333333,
-              "balance": 298554.64,
-              "profit": -1445.36,
+              "progressPct": -9.634066666666666,
+              "balance": 298554.89,
+              "profit": -1445.11,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -772,7 +772,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_9a75eba2f6f8714db8fe8dc8f9665466",
@@ -787,7 +787,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -802,8 +802,8 @@
       "failedAccounts": 53,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:43.851Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:44.830Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -811,9 +811,9 @@
             {
               "accountId": "account_b79cd961684d4e01861c2aa6c9af2156",
               "accountNumber": "SV23834",
-              "progressPct": 14.643333333333333,
-              "balance": 302196.5,
-              "profit": 2196.5,
+              "progressPct": 15.573333333333334,
+              "balance": 302336,
+              "profit": 2336,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -821,14 +821,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_4accc51aa06aa3237176552fd9c49665",
               "accountNumber": "SV23835",
-              "progressPct": 14.883333333333335,
-              "balance": 302232.5,
-              "profit": 2232.5,
+              "progressPct": 15.826666666666666,
+              "balance": 302374,
+              "profit": 2374,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -836,14 +836,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_f15a4863d6d81f7e6a78f5a7843eba50",
               "accountNumber": "SV23836",
-              "progressPct": 14.253333333333334,
-              "balance": 302138,
-              "profit": 2138,
+              "progressPct": 15.193333333333333,
+              "balance": 302279,
+              "profit": 2279,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -851,7 +851,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -863,11 +863,11 @@
       "email": "m.ruegger@gmx.ch",
       "totalActiveAccounts": 3,
       "totalActiveInstantAccounts": 3,
-      "failedAccounts": 71,
+      "failedAccounts": 73,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:22.811Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:06.986Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -875,9 +875,9 @@
             {
               "accountId": "account_9c5354f90288a1951f2e14a84ddbde28",
               "accountNumber": "SV24217",
-              "progressPct": 43.4466,
-              "balance": 306516.99,
-              "profit": 6516.99,
+              "progressPct": 61.0066,
+              "balance": 309150.99,
+              "profit": 9150.99,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -885,29 +885,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            },
-            {
-              "accountId": "account_3d1518b0060f711885f699c56a552741",
-              "accountNumber": "SV24218",
-              "progressPct": 16.86,
-              "balance": 302529,
-              "profit": 2529,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_114cb20688a88610aa42fa793f72c97a",
               "accountNumber": "SV24219",
-              "progressPct": 16.246666666666666,
-              "balance": 302437,
-              "profit": 2437,
+              "progressPct": 28.12,
+              "balance": 304218,
+              "profit": 4218,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -915,7 +900,22 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            },
+            {
+              "accountId": "account_5c784931c2f30b3bd316dfe9842f8e5b",
+              "accountNumber": "SV24439",
+              "progressPct": 18.426666666666666,
+              "balance": 302764,
+              "profit": 2764,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
             }
           ]
         }
@@ -930,8 +930,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:57.790Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:56.612Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -949,7 +949,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_32dd3ef705aef95366b969754dbfb177",
@@ -964,7 +964,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_a5992c776129a28e39556f857c01374f",
@@ -979,7 +979,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -994,8 +994,8 @@
       "failedAccounts": 59,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:52.326Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:51.987Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1003,9 +1003,9 @@
             {
               "accountId": "account_af2bb780053a1584653c300c551c8b0c",
               "accountNumber": "SV23125",
-              "progressPct": -2.1733333333333333,
-              "balance": 299674,
-              "profit": -326,
+              "progressPct": -14.373333333333333,
+              "balance": 297844,
+              "profit": -2156,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1013,14 +1013,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_17e8c21de813eb53a37711e5b9383efe",
               "accountNumber": "SV23687",
-              "progressPct": 39.24666666666667,
-              "balance": 305887,
-              "profit": 5887,
+              "progressPct": 27.54666666666667,
+              "balance": 304132,
+              "profit": 4132,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1028,14 +1028,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_d3b3a02874ddd801bbc5bcf67a7ee040",
               "accountNumber": "SV23688",
-              "progressPct": 35.86666666666667,
-              "balance": 305380,
-              "profit": 5380,
+              "progressPct": 24.086666666666666,
+              "balance": 303613,
+              "profit": 3613,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1043,7 +1043,71 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "customer_98e36f7644a001839a4a0fc20bf2f238",
+      "name": "Giuseppe Armiento",
+      "email": "giuseppearmiento@gmail.com",
+      "totalActiveAccounts": 3,
+      "totalActiveInstantAccounts": 3,
+      "failedAccounts": 4,
+      "payoutAccounts": 0,
+      "historyComplete": true,
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:03:51.296Z",
+      "groups": [
+        {
+          "accountSize": 300000,
+          "accounts": [
+            {
+              "accountId": "account_2189863cdd93ea7032f33a4c5d36707c",
+              "accountNumber": "SV23772",
+              "progressPct": -58.56173333333333,
+              "balance": 291215.74,
+              "profit": -8784.26,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            },
+            {
+              "accountId": "account_7a889dc55c2ed97a72d012981f2681f9",
+              "accountNumber": "SV24158",
+              "progressPct": 48.504999999999995,
+              "balance": 307275.75,
+              "profit": 7275.75,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            },
+            {
+              "accountId": "account_678185f324d3f14ccd03f2405d7e5315",
+              "accountNumber": "SV24454",
+              "progressPct": 0,
+              "balance": 300000,
+              "profit": 0,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
             }
           ]
         }
@@ -1058,8 +1122,8 @@
       "failedAccounts": 87,
       "payoutAccounts": 2,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:08.605Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:16.250Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1067,9 +1131,9 @@
             {
               "accountId": "account_6c020db18eb94392748d8947befef9c0",
               "accountNumber": "SV23922",
-              "progressPct": 59.66666666666667,
-              "balance": 308950,
-              "profit": 8950,
+              "progressPct": 61.913333333333334,
+              "balance": 309287,
+              "profit": 9287,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1077,14 +1141,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_de895ac44c07dec39b133acc34fd4f9f",
               "accountNumber": "SV23923",
-              "progressPct": 59.78,
-              "balance": 308967,
-              "profit": 8967,
+              "progressPct": 62.01333333333333,
+              "balance": 309302,
+              "profit": 9302,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1092,14 +1156,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_29835f07e60c4ef76ef9673f719153ed",
               "accountNumber": "SV23961",
-              "progressPct": 59.1766,
-              "balance": 308876.49,
-              "profit": 8876.49,
+              "progressPct": 61.44326666666666,
+              "balance": 309216.49,
+              "profit": 9216.49,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1107,14 +1171,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_327652c4a9978c284412bcf11c6241e4",
               "accountNumber": "SV24328",
-              "progressPct": 13.483266666666665,
-              "balance": 302022.49,
-              "profit": 2022.49,
+              "progressPct": 14.8966,
+              "balance": 302234.49,
+              "profit": 2234.49,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1122,14 +1186,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_835539ec8edf2b2ef467296709e12248",
               "accountNumber": "SV24329",
-              "progressPct": -12.713333333333331,
-              "balance": 298093,
-              "profit": -1907,
+              "progressPct": -29.126733333333334,
+              "balance": 295630.99,
+              "profit": -4369.01,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1137,7 +1201,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1152,33 +1216,18 @@
       "failedAccounts": 22,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:02.647Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:02.050Z",
       "groups": [
         {
           "accountSize": 300000,
           "accounts": [
             {
-              "accountId": "account_139d179c5f8d3e6323207c773f632142",
-              "accountNumber": "SV23935",
-              "progressPct": 100.37,
-              "balance": 315055.5,
-              "profit": 15055.5,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            },
-            {
               "accountId": "account_9f7da55508dc763a31f0e00e8f0ba007",
               "accountNumber": "SV23949",
-              "progressPct": 61.349933333333325,
-              "balance": 309202.49,
-              "profit": 9202.49,
+              "progressPct": 56.4666,
+              "balance": 308469.99,
+              "profit": 8469.99,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1186,14 +1235,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_4aa5fc4db13c6500828888e32f51f10e",
               "accountNumber": "SV24325",
-              "progressPct": -5.500066666666666,
-              "balance": 299174.99,
-              "profit": -825.01,
+              "progressPct": -16.566733333333335,
+              "balance": 297514.99,
+              "profit": -2485.01,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1201,14 +1250,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_9d9fb30fe694c97f2c1721fbb5a33c83",
               "accountNumber": "SV24357",
-              "progressPct": 4.866666666666666,
-              "balance": 300730,
-              "profit": 730,
+              "progressPct": 5.516666666666667,
+              "balance": 300827.5,
+              "profit": 827.5,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1216,7 +1265,22 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
+            },
+            {
+              "accountId": "account_94953651d06cf3d4489022bd96010478",
+              "accountNumber": "SV24445",
+              "progressPct": -32.7834,
+              "balance": 306537.99,
+              "profit": -4917.51,
+              "targetAmount": 15000,
+              "openedAt": null,
+              "status": "active",
+              "updatedAt": null,
+              "product": "Instant Funded Thunderbolt 300k Second Cycle",
+              "provenanceUserInstructionDatum": "2026-10-05",
+              "targetBasis": "user_defined_product_payout_target",
+              "sourceUpdatedDisplay": "07/10/2026 07:01"
             }
           ]
         }
@@ -1231,8 +1295,8 @@
       "failedAccounts": 6,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:17.996Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:21.968Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -1250,7 +1314,7 @@
               "product": "Instant Funded Tomcat 150k Second Cycle",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_f87f8955070fbb71549847ece13f6894",
@@ -1265,7 +1329,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_ec59c4dbaa35942e9684073a874a3594",
@@ -1280,7 +1344,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1295,8 +1359,8 @@
       "failedAccounts": 14,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:05.545Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:14.014Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1304,9 +1368,9 @@
             {
               "accountId": "account_ebb4ca8b4555fba4c4d2c7770e342066",
               "accountNumber": "SV24346",
-              "progressPct": 11.466666666666667,
-              "balance": 301720,
-              "profit": 1720,
+              "progressPct": 15.98,
+              "balance": 302397,
+              "profit": 2397,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1314,14 +1378,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_4ad3fdfe7d473db80cd9d5a5e3e4522b",
               "accountNumber": "SV24347",
-              "progressPct": 10.02,
-              "balance": 301503,
-              "profit": 1503,
+              "progressPct": 14.266666666666666,
+              "balance": 302140,
+              "profit": 2140,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1329,14 +1393,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_2c01ee37e817f9f015670f4f4268ed09",
               "accountNumber": "SV24348",
-              "progressPct": 4.78,
-              "balance": 300717,
-              "profit": 717,
+              "progressPct": 8.993333333333334,
+              "balance": 301349,
+              "profit": 1349,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1344,14 +1408,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_4cc9a7100ca499fea45f95c813ee292d",
               "accountNumber": "SV24349",
-              "progressPct": 5.413333333333333,
-              "balance": 300812,
-              "profit": 812,
+              "progressPct": 9.56,
+              "balance": 301434,
+              "profit": 1434,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1359,14 +1423,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_4bdfc0999dc5c2abc8a7aa6539656d98",
               "accountNumber": "SV24350",
-              "progressPct": 5.113333333333333,
-              "balance": 300767,
-              "profit": 767,
+              "progressPct": 9.226666666666667,
+              "balance": 301384,
+              "profit": 1384,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1374,7 +1438,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1389,8 +1453,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:35.515Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:35.957Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1408,7 +1472,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_20c05aad90d33bb52549616a688aa12d",
@@ -1423,7 +1487,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_77410f8c84583f74e20c1d2e5edb5208",
@@ -1438,7 +1502,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_1e5fbedcdf6cc43746a587caeb01af4a",
@@ -1453,7 +1517,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_09a2629692980990e87785aa0dbe88d8",
@@ -1468,7 +1532,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1483,8 +1547,8 @@
       "failedAccounts": 7,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:46.730Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:47.276Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1492,9 +1556,9 @@
             {
               "accountId": "account_2bde8d361bfd9797bef6b3b4d0e98e15",
               "accountNumber": "SV23717",
-              "progressPct": -70.43606666666666,
-              "balance": 289434.59,
-              "profit": -10565.41,
+              "progressPct": -70.42273333333333,
+              "balance": 289436.59,
+              "profit": -10563.41,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1502,14 +1566,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_d114b238152c904d80d73adaefa65586",
               "accountNumber": "SV23718",
-              "progressPct": -70.38273333333333,
-              "balance": 289442.59,
-              "profit": -10557.41,
+              "progressPct": -70.3694,
+              "balance": 289444.59,
+              "profit": -10555.41,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1517,14 +1581,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_e118894b349864468161b366d9962455",
               "accountNumber": "SV23719",
-              "progressPct": -70.41606666666667,
-              "balance": 289437.59,
-              "profit": -10562.41,
+              "progressPct": -70.40273333333333,
+              "balance": 289439.59,
+              "profit": -10560.41,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1532,7 +1596,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1542,13 +1606,13 @@
       "customerId": "customer_efa15e4a7eefd352f6cee0ffd1504abf",
       "name": "Jonathan Pryor",
       "email": "pryor.jonathan@gmail.com",
-      "totalActiveAccounts": 5,
-      "totalActiveInstantAccounts": 5,
-      "failedAccounts": 49,
+      "totalActiveAccounts": 3,
+      "totalActiveInstantAccounts": 3,
+      "failedAccounts": 51,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:04:57.155Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:40.016Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -1556,9 +1620,9 @@
             {
               "accountId": "account_a260f552c9844300536624981d636823",
               "accountNumber": "SV24058",
-              "progressPct": 46.90653333333333,
-              "balance": 153517.99,
-              "profit": 3517.99,
+              "progressPct": 20.5432,
+              "balance": 151540.74,
+              "profit": 1540.74,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -1566,14 +1630,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_8abb5cf2a794f4b1a5d37ee358a5c7fb",
               "accountNumber": "SV24059",
-              "progressPct": 40.449866666666665,
-              "balance": 153033.74,
-              "profit": 3033.74,
+              "progressPct": 14.1032,
+              "balance": 151057.74,
+              "profit": 1057.74,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -1581,14 +1645,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_acefa83a3f98341c73f6501421bd8968",
               "accountNumber": "SV24060",
-              "progressPct": 40.349866666666664,
-              "balance": 153026.24,
-              "profit": 3026.24,
+              "progressPct": 13.986533333333334,
+              "balance": 151048.99,
+              "profit": 1048.99,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -1596,7 +1660,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1611,8 +1675,8 @@
       "failedAccounts": 10,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:11.468Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:18.526Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1620,9 +1684,9 @@
             {
               "accountId": "account_a8ea5e3c3f7cc52fb1a0f41bdd89c9c8",
               "accountNumber": "SV24308",
-              "progressPct": 4.331333333333333,
-              "balance": 300649.7,
-              "profit": 649.7,
+              "progressPct": 8.751333333333333,
+              "balance": 301312.7,
+              "profit": 1312.7,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1630,14 +1694,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_26b102b194676805a185e7e2b2b2b71a",
               "accountNumber": "SV24309",
-              "progressPct": 5.551333333333334,
-              "balance": 300832.7,
-              "profit": 832.7,
+              "progressPct": 9.804666666666668,
+              "balance": 301470.7,
+              "profit": 1470.7,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1645,14 +1709,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_050fbeaa5e65b2d6373496f0d5e58be1",
               "accountNumber": "SV24310",
-              "progressPct": 4.851333333333334,
-              "balance": 300727.7,
-              "profit": 727.7,
+              "progressPct": 8.971333333333334,
+              "balance": 301345.7,
+              "profit": 1345.7,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1660,7 +1724,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1675,8 +1739,8 @@
       "failedAccounts": 31,
       "payoutAccounts": 2,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:20.030Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:23.560Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1684,9 +1748,9 @@
             {
               "accountId": "account_7472f945f2720f8a61899c284efd00b3",
               "accountNumber": "SV24230",
-              "progressPct": -18.186666666666667,
-              "balance": 297272,
-              "profit": -2728,
+              "progressPct": -17.173333333333332,
+              "balance": 297424,
+              "profit": -2576,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1694,14 +1758,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_5ba1feecfd8eeaa32a6e2f5240ed20c3",
               "accountNumber": "SV24231",
-              "progressPct": -18.206666666666667,
-              "balance": 297269,
-              "profit": -2731,
+              "progressPct": -17.246666666666666,
+              "balance": 297413,
+              "profit": -2587,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1709,14 +1773,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_7fab254ac130323843f7e99346f83aca",
               "accountNumber": "SV24232",
-              "progressPct": -18.206666666666667,
-              "balance": 297269,
-              "profit": -2731,
+              "progressPct": -17.246666666666666,
+              "balance": 297413,
+              "profit": -2587,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1724,14 +1788,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_e53c982ed4c6e1c480ccffaa720f190d",
               "accountNumber": "SV24278",
-              "progressPct": -18.206666666666667,
-              "balance": 297269,
-              "profit": -2731,
+              "progressPct": -17.246666666666666,
+              "balance": 297413,
+              "profit": -2587,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1739,14 +1803,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_6d3c70ece20891ade676f7750824282f",
               "accountNumber": "SV24279",
-              "progressPct": -18.206666666666667,
-              "balance": 297269,
-              "profit": -2731,
+              "progressPct": -17.246666666666666,
+              "balance": 297413,
+              "profit": -2587,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1754,7 +1818,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1769,8 +1833,8 @@
       "failedAccounts": 1,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:20.921Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:24.369Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1788,7 +1852,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_5070791c36da17a51963297fdf49ac49",
@@ -1803,7 +1867,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_6398887d6d350e4867025496a93a2d08",
@@ -1818,7 +1882,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1833,8 +1897,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:35.161Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:35.154Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1842,9 +1906,9 @@
             {
               "accountId": "account_9ef71b98f4d7cc5cf3e8663ab96ae3c5",
               "accountNumber": "SV24170",
-              "progressPct": 3.985266666666666,
-              "balance": 300597.79,
-              "profit": 597.79,
+              "progressPct": 11.0626,
+              "balance": 301659.39,
+              "profit": 1659.39,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1852,14 +1916,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_9d37e83a0140bc24ce016324b5da377f",
               "accountNumber": "SV24171",
-              "progressPct": 3.991933333333333,
-              "balance": 300598.79,
-              "profit": 598.79,
+              "progressPct": 11.069266666666667,
+              "balance": 301660.39,
+              "profit": 1660.39,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1867,14 +1931,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_27f7d9ace097d1de059e0a7c3afb5bef",
               "accountNumber": "SV24172",
-              "progressPct": 3.991933333333333,
-              "balance": 300598.79,
-              "profit": 598.79,
+              "progressPct": 11.069266666666667,
+              "balance": 301660.39,
+              "profit": 1660.39,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1882,7 +1946,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1897,8 +1961,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:54.925Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:54.270Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1906,9 +1970,9 @@
             {
               "accountId": "account_f5eaa601aa80b2e0b6b2e0c0ed9f799f",
               "accountNumber": "SV21467",
-              "progressPct": 5.964933333333333,
-              "balance": 300894.74,
-              "profit": 894.74,
+              "progressPct": 6.063266666666667,
+              "balance": 300909.49,
+              "profit": 909.49,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -1916,7 +1980,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_eae316eff2c990f086e0a4f44d127000",
@@ -1931,7 +1995,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_25e09dd42c23190062fc045420bd72e9",
@@ -1946,7 +2010,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -1961,8 +2025,8 @@
       "failedAccounts": 3,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:14.863Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:19.623Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1980,7 +2044,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_5fc135b268f592ac6b7a1560da19d0b9",
@@ -1995,7 +2059,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_63f5878133bf6f4e90209aff5d96af4b",
@@ -2010,7 +2074,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -2025,8 +2089,8 @@
       "failedAccounts": 1,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:06:23.672Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:05:26.634Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -2034,9 +2098,9 @@
             {
               "accountId": "account_a49e9f776c8424a1b6e699bb1b6cdabf",
               "accountNumber": "SV22620",
-              "progressPct": -39.77346666666667,
-              "balance": 147016.99,
-              "profit": -2983.01,
+              "progressPct": -39.47346666666667,
+              "balance": 147039.49,
+              "profit": -2960.51,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -2044,14 +2108,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_d265f0c9ecf211f1656ec19914c3abdd",
               "accountNumber": "SV22621",
-              "progressPct": -17.7468,
-              "balance": 148668.99,
-              "profit": -1331.01,
+              "progressPct": -17.4468,
+              "balance": 148691.49,
+              "profit": -1308.51,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -2059,14 +2123,14 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_4eaa597a658ea8eccb987585b9c0e16f",
               "accountNumber": "SV22622",
-              "progressPct": -8.1068,
-              "balance": 149391.99,
-              "profit": -608.01,
+              "progressPct": -7.8068,
+              "balance": 149414.49,
+              "profit": -585.51,
               "targetAmount": 7500,
               "openedAt": null,
               "status": "active",
@@ -2074,7 +2138,7 @@
               "product": "Instant Funded Tomcat 150k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -2089,8 +2153,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:05:49.566Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:49.756Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2098,9 +2162,9 @@
             {
               "accountId": "account_b556b5dccf9a9ed7aaf0dfdb45c97ba7",
               "accountNumber": "SV23524",
-              "progressPct": 3.4066,
-              "balance": 300510.99,
-              "profit": 510.99,
+              "progressPct": -8.773399999999999,
+              "balance": 298683.99,
+              "profit": -1316.01,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -2108,14 +2172,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_2f51134c487219f697db8776f97d55ec",
               "accountNumber": "SV23574",
-              "progressPct": 7.380000000000001,
-              "balance": 301107,
-              "profit": 1107,
+              "progressPct": 14.163333333333334,
+              "balance": 302124.5,
+              "profit": 2124.5,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -2123,7 +2187,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_452de678a742889a976d95e6b16263ce",
@@ -2138,7 +2202,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -2148,13 +2212,13 @@
       "customerId": "customer_48219d36cf11f9461ee00009d9954946",
       "name": "Roman Schabel",
       "email": "roman.schabel@gmx.at",
-      "totalActiveAccounts": 5,
-      "totalActiveInstantAccounts": 5,
-      "failedAccounts": 4,
+      "totalActiveAccounts": 4,
+      "totalActiveInstantAccounts": 4,
+      "failedAccounts": 5,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-06T07:10:52.147Z",
-      "identityAsOf": "2026-10-06T07:04:59.726Z",
+      "historyAsOf": "2026-10-07T07:09:07.871Z",
+      "identityAsOf": "2026-10-07T07:04:11.710Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2162,9 +2226,9 @@
             {
               "accountId": "account_96ab103235d0ea456f7ffbcb257f707e",
               "accountNumber": "SV23625",
-              "progressPct": 27.987533333333335,
-              "balance": 304198.13,
-              "profit": 4198.13,
+              "progressPct": 11.800866666666668,
+              "balance": 301770.13,
+              "profit": 1770.13,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -2172,14 +2236,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_7f923a6dd85737040fc1d35a6958d12b",
               "accountNumber": "SV23957",
-              "progressPct": 4.196666666666666,
-              "balance": 300629.5,
-              "profit": 629.5,
+              "progressPct": 4.323266666666667,
+              "balance": 300648.49,
+              "profit": 648.49,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -2187,14 +2251,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_19b48e40f0ff117b52f232b03ef25568",
               "accountNumber": "SV24369",
-              "progressPct": 0,
-              "balance": 300000,
-              "profit": 0,
+              "progressPct": -21.43,
+              "balance": 296785.5,
+              "profit": -3214.5,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -2202,29 +2266,14 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
-            },
-            {
-              "accountId": "account_fc5c52775f613a54a978e1f831296ffc",
-              "accountNumber": "SV24370",
-              "progressPct": 0,
-              "balance": 300000,
-              "profit": 0,
-              "targetAmount": 15000,
-              "openedAt": null,
-              "status": "active",
-              "updatedAt": null,
-              "product": "Instant Funded Thunderbolt 300k",
-              "provenanceUserInstructionDatum": "2026-10-05",
-              "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             },
             {
               "accountId": "account_44ab2a0eef31b8d82f6471768a665fc7",
               "accountNumber": "SV24371",
-              "progressPct": 0,
-              "balance": 300000,
-              "profit": 0,
+              "progressPct": 3.2869333333333333,
+              "balance": 300493.04,
+              "profit": 493.04,
               "targetAmount": 15000,
               "openedAt": null,
               "status": "active",
@@ -2232,7 +2281,7 @@
               "product": "Instant Funded Thunderbolt 300k",
               "provenanceUserInstructionDatum": "2026-10-05",
               "targetBasis": "user_defined_product_payout_target",
-              "sourceUpdatedDisplay": "06/10/2026 07:00"
+              "sourceUpdatedDisplay": "07/10/2026 07:00"
             }
           ]
         }
@@ -2241,18 +2290,18 @@
   ],
   "refresh": {
     "state": "succeeded",
-    "attemptedAt": "2026-10-06T07:03:19.407Z",
-    "succeededAt": "2026-10-06T07:11:17.053Z",
-    "sourceAsOf": "2026-10-06T07:04:07.015Z",
+    "attemptedAt": "2026-10-07T07:03:03.762Z",
+    "succeededAt": "2026-10-07T07:09:33.087Z",
+    "sourceAsOf": "2026-10-07T07:03:33.159Z",
     "scheduledFor": null,
-    "durationMs": 477646,
+    "durationMs": 389325,
     "errorSummary": null,
     "schemaVersion": 1,
     "counts": {
-      "sourceAccounts": 583,
-      "sourceCustomers": 285,
-      "scopedCustomers": 31,
-      "scopedAccounts": 109,
+      "sourceAccounts": 575,
+      "sourceCustomers": 281,
+      "scopedCustomers": 32,
+      "scopedAccounts": 111,
       "bySize": {
         "150000": {
           "customers": 6,
@@ -2262,17 +2311,17 @@
           "with5": 1
         },
         "300000": {
-          "customers": 25,
-          "accounts": 89,
-          "with3": 17,
-          "with4": 2,
-          "with5": 6
+          "customers": 26,
+          "accounts": 91,
+          "with3": 18,
+          "with4": 3,
+          "with5": 5
         }
       },
       "progressBands": {
-        "green": 108,
-        "orange": 0,
-        "red": 1,
+        "green": 106,
+        "orange": 5,
+        "red": 0,
         "unknown": 0
       }
     },
