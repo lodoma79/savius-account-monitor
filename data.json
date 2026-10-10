@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-10T00:06:25.863Z",
-  "collectedAt": "2026-10-10T00:11:50.764Z",
+  "asOf": "2026-10-10T07:01:17.275Z",
+  "collectedAt": "2026-10-10T07:06:51.358Z",
   "status": "ready",
   "cohortPolicy": "tomcat-thunderbolt",
   "sourceLabel": "Savius Admin · complete read-only active-account capture",
   "notes": [
-    "Complete read-only active-account capture: 623 unique accounts across 13 pages; observed sequentially from 2026-10-10T00:05:44.790Z to 2026-10-10T00:06:25.863Z.",
+    "Complete read-only active-account capture: 623 unique accounts across 13 pages; observed sequentially from 2026-10-10T07:00:33.101Z to 2026-10-10T07:01:17.275Z.",
     "Profit-target progress uses the displayed account profit and the owner-defined benchmark: Tomcat 150K = USD 7,500; Thunderbolt 300K = USD 15,000. This is a monitoring benchmark, including Second Cycle products, and does not assert payout eligibility.",
     "Progress bands use unrounded values: green below 80%; orange 80% to below 86%; red 86% or above. Unknowns remain in the account denominator.",
     "Customer identities were read during this collection. Source updated times are preserved as displayed without assigning an unverified timezone.",
@@ -23,8 +23,8 @@
       "failedAccounts": 41,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:49.054Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:34.586Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -87,8 +87,8 @@
       "failedAccounts": 42,
       "payoutAccounts": 3,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:45.302Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:25.567Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -151,8 +151,8 @@
       "failedAccounts": 1,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:24.440Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:03:08.429Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -215,8 +215,8 @@
       "failedAccounts": 47,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:00.785Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:45.508Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -279,8 +279,8 @@
       "failedAccounts": 49,
       "payoutAccounts": 6,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:23.366Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:12.153Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -373,8 +373,8 @@
       "failedAccounts": 28,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:46.678Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:31.943Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -467,8 +467,8 @@
       "failedAccounts": 20,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:28.651Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:17.526Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -531,8 +531,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:26.969Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:03:11.201Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -595,8 +595,8 @@
       "failedAccounts": 16,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:03.480Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:48.112Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -659,8 +659,8 @@
       "failedAccounts": 17,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:42.532Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:22.917Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -723,8 +723,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:59.093Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:45.186Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -817,8 +817,8 @@
       "failedAccounts": 11,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:51.581Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:37.219Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -911,8 +911,8 @@
       "failedAccounts": 303,
       "payoutAccounts": 7,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:42.010Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:26.875Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -975,8 +975,8 @@
       "failedAccounts": 62,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:09.883Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:50.392Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1039,8 +1039,8 @@
       "failedAccounts": 28,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:12.353Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:00.911Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -1133,8 +1133,8 @@
       "failedAccounts": 2,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:29.771Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:03:13.668Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1197,8 +1197,8 @@
       "failedAccounts": 53,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:47.797Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:32.445Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1261,8 +1261,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:58.205Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:42.872Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1325,8 +1325,8 @@
       "failedAccounts": 62,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:44.348Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:29.445Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1419,8 +1419,8 @@
       "failedAccounts": 4,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:07.212Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:47.788Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1483,8 +1483,8 @@
       "failedAccounts": 87,
       "payoutAccounts": 2,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:20.702Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:09.361Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1577,8 +1577,8 @@
       "failedAccounts": 23,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:15.186Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:03.788Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1641,8 +1641,8 @@
       "failedAccounts": 6,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:16.457Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:53.450Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -1705,8 +1705,8 @@
       "failedAccounts": 14,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:17.935Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:06.549Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1799,8 +1799,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:32.451Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:03:16.254Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1893,8 +1893,8 @@
       "failedAccounts": 7,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:50.422Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:35.119Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -1957,8 +1957,8 @@
       "failedAccounts": 31,
       "payoutAccounts": 5,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:25.986Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:14.841Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2051,8 +2051,8 @@
       "failedAccounts": 1,
       "payoutAccounts": 1,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:19.034Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:03:02.949Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2115,8 +2115,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:31.416Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:20.208Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2179,8 +2179,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:55.514Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:40.395Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2243,8 +2243,8 @@
       "failedAccounts": 3,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:06.449Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:50.666Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2307,8 +2307,8 @@
       "failedAccounts": 1,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:08:21.840Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:03:05.767Z",
       "groups": [
         {
           "accountSize": 150000,
@@ -2371,8 +2371,8 @@
       "failedAccounts": 14,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:54.125Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:40.040Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2450,8 +2450,8 @@
       "failedAccounts": 0,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:07:52.957Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:02:37.731Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2514,8 +2514,8 @@
       "failedAccounts": 8,
       "payoutAccounts": 0,
       "historyComplete": true,
-      "historyAsOf": "2026-10-10T00:11:50.764Z",
-      "identityAsOf": "2026-10-10T00:06:56.587Z",
+      "historyAsOf": "2026-10-10T07:06:51.358Z",
+      "identityAsOf": "2026-10-10T07:01:42.592Z",
       "groups": [
         {
           "accountSize": 300000,
@@ -2587,11 +2587,11 @@
   ],
   "refresh": {
     "state": "succeeded",
-    "attemptedAt": "2026-10-10T00:05:44.790Z",
-    "succeededAt": "2026-10-10T00:12:16.968Z",
-    "sourceAsOf": "2026-10-10T00:06:25.863Z",
+    "attemptedAt": "2026-10-10T07:00:33.101Z",
+    "succeededAt": "2026-10-10T07:07:08.985Z",
+    "sourceAsOf": "2026-10-10T07:01:17.275Z",
     "scheduledFor": null,
-    "durationMs": 392178,
+    "durationMs": 395884,
     "errorSummary": null,
     "schemaVersion": 1,
     "counts": {
